@@ -1,0 +1,287 @@
+\documentclass[titlepage,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+
+\title{\textbf{Windows Task 3}}
+\author{Jairo Andres Mera Lopez \\ \textbf{Escuela Tecnológica Instituto Tecnico Central} \\ Sistemas operativos I \\ Wilmer Lopez Lopez \\ \\ jameralreatolau@itc.edu.co}
+\date{14 Marzo 2021}
+
+\begin{document}
+
+\maketitle
+
+\section*{\centering Resumen}
+En este reporte se encontraran algunos aspectos básicos sobre el sistema Operativo Windows, se verán algunas características de su interfaz,  como ejecutar y para que sirven ciertos comandos dentro de el. \\ \\ \textbf{Palabras clave:} Windows, Interfaz, Comandos. 
+
+\section*{\centering Abstract}
+In this report you will find some basic aspects about the Windows Operating system, you will see some characteristics of its interface, how to execute and what certain commands are used for within it. \\ \\ \textbf{Keywords:} Windows, Interface, Commands.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Objetivos}
+\begin{itemize}
+
+\item {\it Responder cada uno de los interrogantes respecto a algunos aspectos de windows} 
+\item {\it Definir algunos conceptos de imágenes sobre la interfaz de Windows} 
+\item {\it Continuar aprendiendo y trabajando sobre como realizar informes en \LaTeX } 
+
+\end{itemize}
+
+\newpage
+
+\section{Escritorio}
+\subsection*{1 ¿Que es Windows?}
+Sistema operativo que permite la ejecución de los recursos de un ordenador, creado por la compañía Microsoft, su distintivo nombre se da al funcionamiento en ventanas de su interfaz.
+
+\subsection*{2 ¿Para que se utiliza el escritorio?}
+El escritorio en este sistema operativo se usa para almacenar las principales aplicaciones que tiene el pc para darle un fácil acceso al usuario.
+
+\subsection*{3 Pasos para ver las propiedades del computador}
+\textbf{Paso 1:} Ir al explorador de archivos 
+
+\textbf{Paso 2:} Dar clic derecho en "Este equipo" 
+
+\textbf{Paso 3:} Presionar en "Propiedades"
+
+\textbf{Paso 4:} Se desplegará una ventana nueva y allí encontrará las propiedades del equipo 
+
+\subsection*{4 Acceso directo}
+Un acceso directo es un icono que aparece en el escritorio el cual sirve para ingresar a la aplicación o archivo sin necesidad de ir al explorador de archivos.
+Su diferencia con un archivo es que este solo da acceso al archivo por lo tanto no pesa demasiado como el archivo al que si se esta dirigiendo 
+\subsubsection*{\textbf{Pasos para crear un acceso directo}}
+Paso 1: Dar clic derecho en el archivo o aplicación al que desee crearle un acceso directo.
+
+Paso 2: Dar clic en "Crear acceso directo".
+
+\subsection*{5 Barra de tareas}
+La barra de inicio o tareas es el lugar donde se encuentras los iconos de las aplicaciones que están dentro del sistema operativo.
+
+\subsection*{6 Como buscar un archivo en el escritorio}
+Para ordenar el escritorio y buscar un archivo lo que yo haría seria...
+
+\textbf{Paso 1:} Dar clic derecho y entrar en la opción "Ordenar por"
+
+\textbf{Paso 2:} Seleccionar la opción "Tipo de elemento" 
+
+Y ya con esto sabría cual es el archivo que deseo y estos quedarían ordenados dependiendo su tipo 
+
+\subsection*{7 Como ocultar los iconos del escritorio}
+\textbf{Paso 1:} Ubicado en el escritorio dar clic derecho y seleccionar la opción "ver"
+
+\textbf{Paso 2:} Dar clic en "Mostrar iconos en el escritorio"
+
+\textbf{Paso 3:} Cuando este no tenga una marca de verificación los iconos no aparecerán
+
+\subsection*{8 Borrar elementos de la papelera}
+Para borrar elementos de la papelera se puede dar clic en el elemento que se de desee y seleccionar la opción (eliminar) y confirmar la eliminación. \\ \\  O también se puede vaciar toda la papelera dando clic derecho en la papelera y seleccionar la opción "vaciar papelera" y confirmar esta acción 
+
+\subsection*{9 Como saber si todos los controladores están instalados}
+En el explorador de archivos damos clic derecho en "Este equipo", seleccionamos administrar y luego de que aparezca la nueva ventana en esta seleccionamos "Administrador de dispositivos", finalmente en esta sección podemos verificar todos los dispositivos y demás (los que no se encuentren bien aparecerán con un signo de exclamación) 
+
+\subsection*{10 Panel de control}
+Es una sección del sistema operativo donde los usuarios pueden acceder a diferentes configuraciones del sistema operativo, pueden desinstalar programas, configurar algunas características, etc...
+
+\subsection*{11 Iconos}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.47]{I1.jpg}
+    \caption{Icono mi Pc }
+    \label{fig:Mipc}
+\end{figure}
+Icono de "mi pc" sirve para visualizar las propiedades del equipo y otras características u archivos
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.47]{I2.jpg}
+    \caption{Icono papelera }
+    \label{fig:papelera}
+\end{figure}
+Este icono en el escritorio es el de la "Papelera de reciclaje" allí van todos los archivos que no queremos tener en otra parte (que ya no son útiles) y que después de un tiempo eliminaremos 
+\newpage
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.27]{I3.jpg}
+    \caption{Icono paint}
+    \label{fig:Paint}
+\end{figure}
+
+Este icono representa la aplicación "paint" la cual no da funciones para crear diferentes cosas con colores, cortes, figuras etc
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.47]{I4.png}
+    \caption{Icono Internet explorer}
+    \label{fig:internet explorer}
+\end{figure}
+
+Este icono representa al navegador web desarrollado por microsoft llamado "Internet Explorer" aquí podemos acceder a distintos sitios web
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.47]{I5.png}
+    \caption{Icono adobe acrobat reader}
+    \label{fig:adobe reader}
+\end{figure}
+Este icono representa la aplicación "adobe acrobat reader" la cual se usa principalmente para visualizar archivos de tipo PDF
+
+\begin{center}
+\includegraphics[scale=0.47]{I6.png}
+
+ \caption{Figura 6: Icono WinRar}
+\end{center}
+Este icono representa la aplicación "WinRar" la cual se usa para comprimir carpetas de archivos y también para descomprimirlas 
+ 
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.47]{I7.jpg}
+    \caption{Icono word}
+    \label{fig:word}
+\end{figure}
+
+Representa la aplicación word donde se crean documentos de diferentes tipos y objetivos como tesis, informes, etc o también donde usualmente se ponen imágenes para imprimir 
+
+\begin{center}
+\includegraphics[scale=0.47]{I8.png}
+
+ \caption{Figura 6: Icono excel}
+\end{center}
+Excel la aplicación que se utiliza para crear distintas tablas, bases de datos diagramas etc en ella se pueden hacer cálculos matemáticos y demás tareas
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.47]{I9.jpg}
+    \caption{Icono power point}
+    \label{fig:power point}
+\end{figure}
+Power point es la aplicación de microsoft donde se realizan diferentes presentaciones de diapositivas como por ejemplo para exposiciones en el trabajo, escuelas y demás 
+
+\begin{center}
+\includegraphics[scale=0.47]{I10.png}
+
+ \caption{Figura 6: Icono calculadora}
+\end{center}
+Este icono representa la aplicación de "calculadora" en la cual podemos realizar distintas operaciones matemáticas
+
+\newpage
+
+\subsection*{12 Combinaciones}
+
+\textbf{F1:} Abre el navegador "explorer" para algún tema de soporte \\ 
+
+\textbf{F3:} Abre un menú de búsqueda en la aplicación que se este usando \\
+
+\textbf{Alt +Tab:} Abre el multitarea y cambia entre aplicaciones \\
+
+\textbf{Tecla Win +:} Activa la lupa del sistema operativo \\
+
+\textbf{M Tecla Win:} Minimiza todas las ventas, te lleva al escritorio \\
+
+\textbf{+ E Ctrl + Esc:} Abre el menú de inicio \\
+
+\textbf{Ctrl + C:} Copiar \\
+
+\textbf{Ctrl + V:} Pegar \\
+
+\textbf{Ctrl + Z:} Deshacer \\
+
+\textbf{Ctrl + X:} Cortar \\
+
+\textbf{F2:} Permite cambiar el nombre de un archivo que tengamos seleccionado \\
+
+\textbf{Alt + F4:} Despliega el menú para apagar, reiniciar, suspender, etc... El equipo \\
+
+\textbf{Ctrl + F4:} Cierra ventanas de programas \\
+
+\textbf{Shift + Supr:} Borra archivos definitivamente 
+
+\section{Explorador de Windows}
+\subsection*{13 Que es el explorador y como se activa}
+El explorador de windows es el lugar donde encontramos todos los archivos de nuestro pc, para acceder a este ingresamos a través del icono con forma de carpeta, que usualmente siempre esta en la barra de tareas 
+\subsection*{14 Renombrar un archivo o carpeta}
+Para renombrar un archivo o carpeta podemos usar la tecla F2 o también damos clic derecho y seleccionamos la opción "cambiar nombre" 
+\subsection*{15 Ver propiedades}
+Dar clic derecho en el archivo o carpeta, ir a la opción "propiedades" 
+\subsection*{16 Eliminar un archivo o carpeta}
+Dar clic derecho en el archivo o carpeta, seleccionar la opción "eliminar" confirmar la acción. El elemento quedará en la papelera de reciclaje
+\subsection*{17 Comprimir y descomprimir}
+Comprimir un archivo es la acción que se realiza para que un archivo pese menos y este pueda ser cargado en diferentes sitios, y la acción de descomprimir es regresar este archivo comprimido a su estado original para también ver todas sus propiedades 
+\subsubsection*{Programas para comprimir}
+Entre los mas conocidos se encuentran \textbf{WinZip} y \textbf{WinRar}, pero también podemos encontrar demás muy buenos como: 7.zip, IZArc y PeaZip
+\subsection*{18 Recuperar un archivo eliminado}
+Hay dos opciones:
+\subsubsection*{Cuando el archivo aun esta en la papelera}
+Ir a la papelera, seleccionar el archivo y dar clic derecho, seleccionar "restaurar"
+\subsubsection*{Cuando ya no esta en la papelera pero se creo alguna copia de seguridad}
+Dentro del panel de control en la opción de "Sistema y mantenimiento" > Copia de seguridad y restauración. Una vez en ese menú, seleccionamos “Restaurar mis archivos” y sigue los pasos que te indique el asistente
+\subsection*{19 Extensión de archivos}
+La función de la extensión de un archivo es distinguir el contenido que hay dentro de este
+
+\subsubsection*{Tipos de extensión}
+\textbf{XLSX} Archivo excel \\
+
+\textbf{DOCX} Documento word \\
+
+\textbf{BMP} Imagenes organizadas en píxeles de forma forma de cuadrícula rectangular en lugar de formas geométricas y líneas \\
+
+\textbf{JPEG} Joint Photographic Experts Group basicamente una de las extensiones mas comunes para imágenes \\
+
+\textbf{GIF} Extensión para una imagen con movimiento \\ 
+
+\textbf{PPT} Archivo de una presentación de power point \\
+
+\textbf{TXT} Archivo de texto simple \\
+
+\textbf{RAR} Carpeta de archivos comprimida \\
+
+\textbf{HTML} Lenguaje de Marcas de Hipertexto, lenguaje para documentos web \\
+
+\subsection*{20Archivos ocultos}
+\subsubsection*{Ocultar archivo}
+\textbf{Paso 1:}Dar clic derecho en el archivo y seleccionar "propiedades" 
+
+\textbf{Paso 2:}En la sección de atributos dar clic en la opción de "oculto" y confirmar
+
+\subsubsection*{Ver archivos ocultos}
+\textbf{Paso 1:}En el explorador de archivos desplegar la cinta de opciones 
+
+\textbf{Paso 2:}Dar clic en "vis" y en la opción "mostrar archivos ocultos" 
+
+\newpage
+
+\section*{Conclusiones}
+
+\begin{itemize}
+
+\item {\it Se responde a cada uno de los puntos del task 3 adquiriendo conocimiento sobre temas y curiosidades del sistema operativo windows}
+
+\item {\it Se definen algunos iconos fundamentales de aplicaciones dentro del sistema operativo } 
+\item {\it Se emplean nuevas herramientas en la creación de informes en \LaTeX } 
+
+\end{itemize}
+
+
+\newpage
+\section{Bibliografía}
+\begin{itemize}
+\item https://softwarelab.org/es/windows-historia/
+\item https://www.headsem.com/como-saber-las-propiedades-o-caracteristicas-de-mi-laptop-notebook-pc/
+\item https://www.softzone.es/2017/02/14/como-ver-los-controladores-o-drivers-instalados-en-windows-10/
+\item https://www.tecnologiaclic.com/informatica/aplicaciones/mejores-programas-para-comprimir-y-descomprimir-archivos/
+\item https://www.lavanguardia.com
+\item https://techlandia.com
+\end{itemize}
+
+
+
+\end{document}
